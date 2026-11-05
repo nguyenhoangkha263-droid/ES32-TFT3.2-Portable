@@ -293,7 +293,7 @@ static void tft_draw_text_center(int cx, int y, const char *str, int s, uint16_t
 static spi_device_handle_t s_touch;
 
 /* Cam ung duoc hieu chinh 2 diem moi lan khoi dong (touch_calibrate) */
-#define TOUCH_Z_MIN   100 /* nguong ap luc de coi la dang cham (thap = nhay hon) */
+#define TOUCH_Z_MIN   50 /* nguong ap luc de coi la dang cham (thap = nhay hon) */
 #define TOUCH_USE_IRQ 0   /* 1: dung chan T_IRQ de loc nhanh (chi bat khi T_IRQ xuong thap dung khi cham) */
 #define TOUCH_DEBUG   0   /* 1: in gia tri tho ra serial moi 500ms de chan doan day noi */
 
